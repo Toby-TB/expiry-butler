@@ -1,0 +1,12 @@
+{
+  "name": "expiry-butler",
+  "version": "1.0.0",
+  "description": "效期管家 — 過期與訂閱提醒管家 PWA",
+  "scripts": {
+    "test": "node test/run-tests.js && node test/dom-test.js",
+    "start": "python3 -m http.server 8080"
+  },
+  "dependencies": {
+    "jsdom": "^30.0.1"
+  }
+}
